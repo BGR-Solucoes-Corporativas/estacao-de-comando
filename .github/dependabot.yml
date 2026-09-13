@@ -1,0 +1,7 @@
+# Avisa quando sair versão nova, ou correção de segurança, das dependências do requirements.txt.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"

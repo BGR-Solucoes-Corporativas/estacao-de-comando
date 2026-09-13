@@ -1,0 +1,88 @@
+/* Estação de Comando: visual do painel */
+
+Screen {
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+TabPane {
+    padding: 1 1 0 1;
+}
+
+/* cartão: moldura arredondada com o título na borda */
+.cartao {
+    height: auto;
+    border: round #30363d;
+    border-title-color: #8b949e;
+    border-title-style: bold;
+    border-subtitle-color: #6e7681;
+    padding: 0 1;
+    margin-bottom: 1;
+}
+
+.centro {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------- aba Foco */
+
+#digitos {
+    text-align: center;
+    margin-top: 1;
+}
+
+#digitos.fase-foco { color: #3fb950; }
+#digitos.fase-pausa { color: #d29922; }
+#digitos.fase-fim { color: #f85149; }
+#digitos.parado { text-opacity: 55%; }
+
+#barra-bloco {
+    height: 1;
+    margin-top: 1;
+}
+
+#botoes {
+    height: auto;
+    align-horizontal: center;
+    margin: 1 0;
+}
+
+#botoes Button {
+    margin: 0 1;
+    min-width: 12;
+}
+
+#cartao-tarefas {
+    height: 1fr;
+    margin-bottom: 0;
+}
+
+#lista-tarefas {
+    height: 1fr;
+}
+
+#lista-tarefas Checkbox {
+    height: auto;
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+#nova-tarefa {
+    margin-bottom: 1;
+    padding: 0 1;
+    background: #161b22;
+}
+
+/* ---------------------------------------------------------------- abas Radar e Máquina */
+
+#radar {
+    height: auto;
+    padding: 0 1;
+}
+
+#maquina .cartao {
+    width: 100%;
+}
