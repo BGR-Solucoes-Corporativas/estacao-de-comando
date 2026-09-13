@@ -1,5 +1,11 @@
 # Changelog: estacao-de-comando
 
+## 0.2.1 (2026-09-12)
+- Orientação para quem quer contribuir (`CONTRIBUTING.md`): issues bem-vindas; pull request entra
+  como proposta, é refeito na fonte e sai na versão seguinte, com crédito aqui.
+- Canal de segurança (`SECURITY.md`): vulnerabilidade pelo relato privado do GitHub, nunca em issue
+  pública.
+
 ## 0.2.0 (2026-09-12)
 - **Modo avulso:** roda sem escritório Mnemosine. As tarefas de cada dia moram em
   `~/.estacao-de-comando/tarefas/` (ou na pasta da variável `ESTACAO_PASTA`), e a aba da assistente
