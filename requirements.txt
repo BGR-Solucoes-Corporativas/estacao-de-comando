@@ -3,4 +3,4 @@
 # Ficha em ferramentas/README.md. Sem placa NVIDIA, o nvidia-ml-py instala e só avisa na aba Máquina.
 textual==8.2.8
 psutil==7.2.2
-nvidia-ml-py==13.610.43
+nvidia-ml-py==13.615.71
